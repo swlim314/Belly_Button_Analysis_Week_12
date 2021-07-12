@@ -68,8 +68,7 @@ function buildCharts(sample) {
     var ids = result.otu_ids;
     var labels = result.otu_labels.slice(0,10).reverse();
     var sampleValues = result.sample_values.slice(0,10).reverse();
-    var bubbleLabels = result.otu_labels;
-    var bubbleValues = result.sample_values;
+    
 
 
     // 7. Create the yticks for the bar chart.
@@ -84,9 +83,8 @@ function buildCharts(sample) {
       y: yticks,
       type: "bar",
       orientation: "h",
-      text: labels
-
-
+      text: labels,
+      hovermode: "closest"
     }];
     // 9. Create the layout for the bar chart. 
     var barLayout = {
@@ -97,15 +95,18 @@ function buildCharts(sample) {
     Plotly.newPlot("bar", barData, barLayout);
   
     // 1. Create the trace for the bubble chart.
+    var chartLabels = result.otu_labels;
+    var chartValues = result.sample_values;
+
     var bubbleData = [{
       x: ids,
-      y: bubbleValues,
-      text: bubbleLabels,
+      y: chartValues,
+      text: chartLabels,
       mode: "markers",
         marker:{ 
-          size: bubbleValues,
-          color: bubbleValues,
-          colorscale: "Picnic"
+          size: chartValues,
+          color: chartValues,
+          colorscale: "Jet"
       }
     }];
 
@@ -139,6 +140,8 @@ function buildCharts(sample) {
       gauge: {
         axis: {range: [0,10], dtick: "2"},
         bar: {color: "black"},
+        borderwidth: 3,
+        bordercolor: "gray",
         steps:[
           {range: [0,2], color: "darkred"},
           {range: [2,4], color: "orange"},
