@@ -5,5 +5,7 @@ that showed bellybutton washing frequency. After this dashboard was developed, I
 type, and the paragraph header color.
 
 Attached below is an image of the local host deployment of the interactive dashboard:
+
+
 **Local host deployment**
-![Local Host deployment] (https://github.com/swlim314/Belly_Button_Analysis_Week_12/blob/25792eda646fca0624065ee392efc36f3541d786/Localhost%20deployment.png)
+![Local Host deployment](https://github.com/swlim314/Belly_Button_Analysis_Week_12/blob/25792eda646fca0624065ee392efc36f3541d786/Localhost%20deployment.png)
