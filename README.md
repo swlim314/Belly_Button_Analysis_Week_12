@@ -3,3 +3,7 @@ The goal of this analysis was to create an interactive dashboard based off of sa
 type of data being shown, including a bar chart to show the top 10 cultures found for that person, a bubble chart that showed bacteria cultures per sample, and a gauge chart
 that showed bellybutton washing frequency. After this dashboard was developed, I made several changes to the layout of the site, changing the background color, title text family
 type, and the paragraph header color.
+
+Attached below is an image of the local host deployment of the interactive dashboard:
+**Local host deployment**
+![Local Host deployment] (https://github.com/swlim314/Belly_Button_Analysis_Week_12/blob/25792eda646fca0624065ee392efc36f3541d786/Localhost%20deployment.png)
