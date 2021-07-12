@@ -8,4 +8,4 @@ Attached below is an image of the local host deployment of the interactive dashb
 
 
 **Local host deployment**
-![Local Host deployment](https://github.com/swlim314/Belly_Button_Analysis_Week_12/blob/25792eda646fca0624065ee392efc36f3541d786/Localhost%20deployment.png)
+![Local Host deployment](https://github.com/swlim314/Belly_Button_Analysis_Week_12/blob/7917ae22b0026ef2b23cc2f6ee898a4c86963847/resources/Localhost%20deployment.png)
